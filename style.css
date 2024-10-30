@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.hero{
+    height:100vh;
+    weight:100vh;
+    background: rgb(8, 8, 8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    width:84%;
+    margin:auto;
+    padding:20px 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:10px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-left: 50px;
+}
+nav ul li a:hover{
+    color:white;
+}
+.info{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+    width:45%;
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.info h1{
+    font-size:40px;
+    margin-bottom:20px;
+}
+.info h1 span{
+    color:red;
+}
+.info p{
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.info a{
+    background: antiquewhite;
+    padding:10px 18px;
+    text-decoration: none;
+    margin:30px 0;
+    border-radius: 50px;
+    color:black;
+}
+.info:hover a{
+    color:rgb(16, 42, 189);
+}
+.right-img .shape{
+    width:40%;
+    height:50%;
+    position:absolute;
+    bottom:0;
+    right: 10%;
+    left:50%;
+    top: 25%;
+}
+.social-links{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+.social-links a{
+    font-size:35px;
+    color:white;
+    margin-right:20px;
+}
+.social-links a:hover {
+    color:blue;
+}
